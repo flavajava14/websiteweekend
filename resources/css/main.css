@@ -124,8 +124,34 @@ header .layout-wide {
         background-color: var(--alternative-bg-color);
     }
 
+    .footer-notices {
+        padding-top: var(--spacer);
+        padding-bottom: var(--spacer);
+    }
+    
+    .footer-notices .layout-wide {
+        margin-bottom: 0;
+        color: var(--alternative-tex-color);
+        text-align: center;
+    }
+    
 
 /* ---------------------------------------------------- FORMS */
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    width: 100%;
+    max-width: 480px
+    margin-botom: var(--spacer);
+}
+
 
 
 
